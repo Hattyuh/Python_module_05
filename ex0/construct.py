@@ -39,7 +39,7 @@ def venv_output() -> None:
 
 
 if __name__ == "__main__":
-    if sys.prefix == sys.base_prefix:
-        global_output()
-    else:
+    if detect_venv():
         venv_output()
+    else:
+        global_output()
