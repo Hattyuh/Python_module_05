@@ -4,5 +4,3 @@ def create_fire() -> str:
 
 def create_water() -> str:
     return "Water element created"
-
-
