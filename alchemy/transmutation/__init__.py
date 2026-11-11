@@ -1,1 +1,4 @@
-from .recepies import lead_to_gold as lead_to_gold
+from .recepies import lead_to_gold
+
+
+__all__ = ["lead_to_gold"]
